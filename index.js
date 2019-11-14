@@ -1,4 +1,5 @@
 // aria gor yom
+//pim thai mai dai
 
 import {AppRegistry} from 'react-native';
 import App from './App';
