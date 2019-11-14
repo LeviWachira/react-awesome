@@ -17,7 +17,7 @@ export default function App() {
   const [isAddMode, SetIsAddMode] = useState(false);
   const [ mode , SetMode] = useState(0)
   const [ minimum , SetMinimum] = useState(false)
-  
+
   const addGoalHandle = goalTitle => {
     SetCourseGoals(currentGoals => [
       ...currentGoals,
