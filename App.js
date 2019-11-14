@@ -15,8 +15,7 @@ import GetInput from './components/GetInput';
 export default function App() {
   const [courseGoals, SetCourseGoals] = useState([]);
   const [isAddMode, SetIsAddMode] = useState(false);
-  console.log('RERENDER COMPONENT');
-  console.log(courseGoals);
+ 
   
   
 
