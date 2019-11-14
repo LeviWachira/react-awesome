@@ -14,12 +14,7 @@ import GetInput from './components/GetInput';
 
 export default function App() {
   const [courseGoals, SetCourseGoals] = useState([]);
-  const [isAddMode, SetIsAddMode] = useState(false);
  
-  
-  
-
-
   const addGoalHandle = goalTitle => {
     SetCourseGoals(currentGoals => [
       ...currentGoals,
