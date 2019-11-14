@@ -1,7 +1,3 @@
-// aria gor yom
-//pim thai mai dai
-// mai bok kern
-
 
 import {AppRegistry} from 'react-native';
 import App from './App';
